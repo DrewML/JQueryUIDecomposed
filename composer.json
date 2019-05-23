@@ -1,0 +1,17 @@
+{
+    "name": "DrewML/JQueryUIDecomposed",
+    "description": "Example of breaking up jQuery UI monolithic build into chunks",
+    "require": {
+        "php": "^7.1.0|^7.2.0",
+        "magento/framework": "^100.0.20|^101.0.0|^102.0.0"
+    },
+    "type": "magento2-module",
+    "autoload": {
+        "files": [
+            "DrewML_JQueryUIDecomposed/registration.php"
+        ],
+        "psr-4": {
+            "DrewML\\JQueryUIDecomposed\\": "DrewML_JQueryUIDecomposed"
+        }
+    }
+}
